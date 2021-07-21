@@ -1,0 +1,94 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  /*line-height: 1;*/
+}
+
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.description{
+  white-space: pre-wrap;
+}
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+/*.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}*/
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.past, .past:focus {
+  background-color: #d3d3d3; color:#000;
+/*  color: white;*/
+}
+
+.present, .present:focus {
+  background-color: #ff6961; color:#000;
+
+  /*color: white;*/
+}
+
+.future, .future:focus {
+  background-color: #77dd77; color:#000;
+
+  /*color: white;*/
+}
+
+.saveBtn {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height:100%;
+  
+}
+
+a.saveBtn:hover {
+	color:#000;
+  transition: all .2s ease-in-out;
+}
+
+
+.margin_bottom { margin-bottom:1px; }
+.border_radius { border-radius:0; border-left: 3px solid #b4b4b4; border-right: 3px solid #368fa1; border-bottom:0; border-top: 0px; color:#000;}
+.time_div { border-top:1px dashed #4d4d4d; text-align:right; padding:10px;}
+
+@media screen and (max-width: 991px) {
+	.col-1-cus { min-width:10%}
+	.col-10-cus { max-width:80%;}
+	
+	}
+	
+	@media screen and (max-width: 767px) {
+	.col-1-cus { min-width:18%}
+	.col-10-cus { max-width:64%;}
+	
+	}
